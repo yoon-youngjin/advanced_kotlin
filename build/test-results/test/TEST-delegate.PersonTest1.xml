@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="delegate.PersonTest1" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-09T10:20:27" hostname="BI-2308005-01" time="0.05">
+  <properties/>
+  <testcase name="isYoonTest()" classname="delegate.PersonTest1" time="0.039"/>
+  <testcase name="maskingNameTest()" classname="delegate.PersonTest1" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

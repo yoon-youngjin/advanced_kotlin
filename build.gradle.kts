@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "1.9.0"
     application
+    id("me.champeau.jmh") version "0.7.1"
 }
 
 group = "org.example"
@@ -12,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.assertj:assertj-core:3.24.2")
 }
 
 tasks.test {
@@ -24,4 +26,11 @@ kotlin {
 
 application {
     mainClass.set("MainKt")
+}
+
+jmh {
+    threads = 1
+    fork = 1
+    warmupIterations = 1
+    iterations = 1
 }

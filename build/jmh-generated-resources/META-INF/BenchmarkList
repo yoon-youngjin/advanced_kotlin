@@ -1,0 +1,2 @@
+JMH S 20 example.SequenceTest S 57 example.jmh_generated.SequenceTest_kotlinIterator_jmhTest S 14 kotlinIterator S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 20 example.SequenceTest S 57 example.jmh_generated.SequenceTest_kotlinSequence_jmhTest S 14 kotlinSequence S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 

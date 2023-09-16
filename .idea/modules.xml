@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced-kotlin.jmh.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced-kotlin.jmh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced-kotlin.main.iml" />
     </modules>
   </component>
 </project>

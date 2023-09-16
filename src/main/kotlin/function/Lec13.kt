@@ -24,8 +24,7 @@ fun main() {
 }
 
 
-
-fun calculate(num1: Int, num2: Int, op: Operator) = op.calcFun(num1, num2)
+fun calculate(num1: Int, num2: Int, op: Operator): Int = op(num1, num2)
 enum class Operator(
     private val oper: Char,
     val calcFun: (Int, Int) -> Int,
@@ -34,9 +33,14 @@ enum class Operator(
     MINUS('-', { a, b -> a - b }),
     MULTIPLY('*', { a, b -> a * b }),
     DIVIDE('/', { a, b ->
-            if (b == 0) throw IllegalArgumentException()
-            else {
-                a / b
-            }
-        }),
+        if (b == 0) throw IllegalArgumentException()
+        else {
+            a / b
+        }
+    }),
+    ;
+
+    operator fun invoke(num1: Int, num2: Int): Int {
+        return calcFun(num1, num2)
+    }
 }
